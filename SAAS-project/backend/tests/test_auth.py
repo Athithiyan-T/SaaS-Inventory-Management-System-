@@ -93,3 +93,14 @@ def test_login_with_wrong_password_fails(client):
 
     assert response.status_code == 401
 
+
+def test_logout_requires_valid_token(client):
+    # No Authorization header at all -> should be rejected
+    response = client.post("/api/logout")
+    assert response.status_code == 401
+
+
+def test_logout_with_valid_token_succeeds(client, auth_headers):
+    response = client.post("/api/logout", headers=auth_headers)
+    assert response.status_code == 200
+    assert response.get_json()["success"] is True
