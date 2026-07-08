@@ -30,7 +30,7 @@ I designed and built the **entire stack myself** — database schema, REST API, 
 
 ---
 
-## 🎯 Why this project matters (for recruiters & hiring managers)
+## 🎯 Why this project matters 
 
 If you're short on time, here's the summary:
 
@@ -39,7 +39,7 @@ If you're short on time, here's the summary:
 | **Full-stack capability** | Independently built both a Python/Flask REST API and a React frontend that talk to each other in production |
 | **Real-world architecture** | Multi-tenancy, JWT authentication, and password hashing — not just a CRUD toy app |
 | **Product thinking** | Built around an actual business need (inventory tracking + low-stock alerts), not just a tech demo |
-| **Quality & rigor** | 22 automated backend tests covering auth, data isolation, and business rules |
+| **Quality ** |  backend testsed in postman covering auth, data isolation, and business rules |
 | **Deployment skills** | Live on Vercel (frontend) + Render with a managed PostgreSQL database (backend) — configured, not just coded |
 | **Clean code habits** | Small functions, meaningful names, consistent structure, and a README written for the next person to pick this up |
 
