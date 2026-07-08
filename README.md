@@ -65,7 +65,7 @@ If you're short on time, here's the summary:
 - Configurable default low-stock threshold per organization
 
 **Engineering Quality**
-- 22 automated pytest tests (auth, CRUD, data isolation, dashboard math, validation)
+- Backend tested in postman (auth, CRUD, data isolation, dashboard math, validation)
 - Consistent API response format with proper HTTP status codes
 - Input validation with friendly, specific error messages
 
